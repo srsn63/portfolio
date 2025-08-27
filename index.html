@@ -3,28 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rahul Sheikh - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Your Portfolio</title>
+  <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+    <style>
+      
+    </style>
 </head>
 <body>
     <!-- Header Design -->
     <header class="header">
-        <a href="#" class="logo">Rahul.<span class="animate" style="--i:1;"></span></a>
-        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+        <a href="#" class="logo">Portfolio<span>.</span></a>
+        
+        <div class="bx bx-menu" id="menu-icon"></div>
+        
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#education">Education</a>
             <a href="#skills">Skills</a>
-            <a href="#contact">Contact me </a>
+            <a href="#projects">Projects</a>
+            <a href="#researches">Researches</a>
+            <a href="#contact">Contact</a>
+            
             <span class="active-nav"></span>
-            <span class="animate" style="--i:2;"></span>
         </nav>
     </header>
-
-    <!-- Home Section Design -->
+    
+       <!-- Home Section Design -->
     <section class="home show-animate" id="home">
         <div class="home-content">
             <h1>Hi, I'm <span>Rahul Sheikh</span><span class="animate" style="--i:2;"></span></h1>
@@ -132,64 +138,196 @@
         </div>
     </section>
 
+    
     <!-- Skills Section Design -->
     <section class="skills" id="skills">
-        <h2 class="heading">My <span>Skills</span><span class="animate scroll" style="--i:1;"></span></h2>
+        <h2 class="heading">My <span>Skills</span></h2>
+        
         <div class="skills-row">
             <div class="skills-column">
                 <h3 class="title">Coding Skills</h3>
+                
                 <div class="skills-box">
                     <div class="skills-content">
                         <div class="progress">
                             <h3>HTML <span>90%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
+                        
                         <div class="progress">
-                            <h3>CSS <span>85%</span></h3>
+                            <h3>CSS <span>80%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
+                        
                         <div class="progress">
-                            <h3>JavaScript <span>75%</span></h3>
+                            <h3>JavaScript <span>60%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
+                        
                         <div class="progress">
-                            <h3>C++ <span>80%</span></h3>
+                            <h3>Python <span>80%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
                     </div>
-                    <span class="animate scroll" style="--i:3;"></span>
                 </div>
             </div>
+            
             <div class="skills-column">
-                <h3 class="title">Professional Skills<span class="animate scroll" style="--i:5;"></span></h3>
+                <h3 class="title">Professional Skills</h3>
+                
                 <div class="skills-box">
                     <div class="skills-content">
                         <div class="progress">
-                            <h3>Web Design <span>70%</span></h3>
+                            <h3>Web Design <span>40%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
+                        
                         <div class="progress">
-                            <h3>Web Development <span>65%</span></h3>
+                            <h3>Web Development <span>45%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
+                        
                         <div class="progress">
-                            <h3>Graphic Design <span>40%</span></h3>
+                            <h3>Graphic Design <span>0%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
+                        
                         <div class="progress">
-                            <h3>SEO Marketing <span>50%</span></h3>
+                            <h3>SEO Marketing <span>0%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
                     </div>
-                    <span class="animate scroll" style="--i:6;"></span>
                 </div>
             </div>
         </div>
     </section>
-
+    
+    <!-- Projects Section Design -->
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+        
+        <div class="projects-row">
+            <div class="projects-column">
+                <h3 class="title">Web Development</h3>
+                
+                <div class="projects-box">
+                    <div class="projects-content">
+                        <div class="year"><i class='bx bxs-calendar'></i> Jan 2023 - Mar 2023</div>
+                        <h3>E-Commerce Website</h3>
+                        <p>Developed a full-stack e-commerce platform with React, Node.js, and MongoDB. Implemented user authentication, payment processing, and admin dashboard.</p>
+                        <a href="#" class="proj-link">View Project <i class='bx bx-link-external'></i></a>
+                    </div>
+                    
+                    <div class="projects-content">
+                        <div class="year"><i class='bx bxs-calendar'></i> Apr 2023 - Jun 2023</div>
+                        <h3>Task Management App</h3>
+                        <p>Created a collaborative task management application with real-time updates using Socket.io. Features include drag-and-drop functionality and team collaboration.</p>
+                        <a href="#" class="proj-link">View Project <i class='bx bx-link-external'></i></a>
+                    </div>
+                    
+                    <div class="projects-content">
+                        <div class="year"><i class='bx bxs-calendar'></i> Jul 2023 - Present</div>
+                        <h3>Portfolio Website</h3>
+                        <p>Designed and developed a responsive portfolio website with modern UI/UX principles, animations, and contact form functionality.</p>
+                        <a href="#" class="proj-link">View Project <i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="projects-column">
+                <h3 class="title">Other Projects</h3>
+                
+                <div class="projects-box">
+                    <div class="projects-content">
+                        <div class="year"><i class='bx bxs-calendar'></i> Aug 2022 - Oct 2022</div>
+                        <h3>Weather Application</h3>
+                        <p>Built a weather forecast application using React and OpenWeather API. Features include 5-day forecast, location detection, and responsive design.</p>
+                        <a href="#" class="proj-link">View Project <i class='bx bx-link-external'></i></a>
+                    </div>
+                    
+                    <div class="projects-content">
+                        <div class="year"><i class='bx bxs-calendar'></i> Nov 2022 - Dec 2022</div>
+                        <h3>Blog Platform</h3>
+                        <p>Developed a content management system for bloggers with features like rich text editing, categories, tags, and comment system.</p>
+                        <a href="#" class="proj-link">View Project <i class='bx bx-link-external'></i></a>
+                    </div>
+                    
+                    <div class="projects-content">
+                        <div class="year"><i class='bx bxs-calendar'></i> Feb 2023 - Mar 2023</div>
+                        <h3>Fitness Tracker</h3>
+                        <p>Created a mobile-friendly fitness tracking application with workout plans, progress charts, and social sharing features.</p>
+                        <a href="#" class="proj-link">View Project <i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Researches Section Design -->
+    <section class="researches" id="researches">
+        <h2 class="heading">My <span>Researches</span></h2>
+        
+        <div class="researches-row">
+            <div class="researches-column">
+                <h3 class="title">Academic Research</h3>
+                
+                <div class="researches-box">
+                    <div class="researches-content">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2021 - 2022</div>
+                        <h3>Machine Learning in Healthcare</h3>
+                        <p>Research on the application of machine learning algorithms for early disease detection and diagnosis in medical imaging.</p>
+                        <a href="#" class="research-link">Read Paper <i class='bx bx-link-external'></i></a>
+                    </div>
+                    
+                    <div class="researches-content">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2020 - 2021</div>
+                        <h3>Blockchain Technology</h3>
+                        <p>Explored the potential of blockchain beyond cryptocurrencies, focusing on supply chain management and digital identity verification systems.</p>
+                        <a href="#" class="research-link">Read Paper <i class='bx bx-link-external'></i></a>
+                    </div>
+                    
+                    <div class="researches-content">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2020</div>
+                        <h3>Human-Computer Interaction</h3>
+                        <p>Studied the impact of UI/UX design principles on user engagement and satisfaction in mobile applications.</p>
+                        <a href="#" class="research-link">Read Paper <i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="researches-column">
+                <h3 class="title">Industry Research</h3>
+                
+                <div class="researches-box">
+                    <div class="researches-content">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2022 - 2023</div>
+                        <h3>Web Performance Optimization</h3>
+                        <p>Investigated techniques for improving website loading times and user experience, focusing on Core Web Vitals and their impact on SEO.</p>
+                        <a href="#" class="research-link">Read Report <i class='bx bx-link-external'></i></a>
+                    </div>
+                    
+                    <div class="researches-content">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2021 - 2022</div>
+                        <h3>Progressive Web Apps</h3>
+                        <p>Analyzed the benefits and limitations of PWAs compared to native mobile applications across different industry sectors.</p>
+                        <a href="#" class="research-link">Read Report <i class='bx bx-link-external'></i></a>
+                    </div>
+                    
+                    <div class="researches-content">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2020 - 2021</div>
+                        <h3>Accessibility in Web Design</h3>
+                        <p>Researched best practices for creating websites that are accessible to users with disabilities, and the legal implications of accessibility compliance.</p>
+                        <a href="#" class="research-link">Read Report <i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <!-- Contact Section Design -->
     <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!</span><span class="animate scroll" style="--i:1;"></span></h2>
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        
         <form action="#">
             <div class="input-box">
                 <div class="input-field">
@@ -200,45 +338,43 @@
                     <input type="text" placeholder="Email Address" required>
                     <span class="focus"></span>
                 </div>
-                <span class="animate scroll" style="--i:3;"></span>
             </div>
+            
             <div class="input-box">
                 <div class="input-field">
-                    <input type="text" placeholder="Mobile Number" required>
+                    <input type="number" placeholder="Mobile Number" required>
                     <span class="focus"></span>
                 </div>
                 <div class="input-field">
                     <input type="text" placeholder="Email Subject" required>
                     <span class="focus"></span>
                 </div>
-                <span class="animate scroll" style="--i:5;"></span>
             </div>
+            
             <div class="textarea-field">
                 <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
                 <span class="focus"></span>
-                <span class="animate scroll" style="--i:7;"></span>
             </div>
+            
             <div class="btn-box btns">
                 <button type="submit" class="btn">Submit</button>
-                <span class="animate scroll" style="--i:9;"></span>
             </div>
         </form>
     </section>
-
+    
     <!-- Footer Design -->
     <footer class="footer">
         <div class="footer-text">
-            <p>Copyright &copy; 2023 by Rahul Sheikh | All Rights Reserved</p>
-            <span class="animate scroll" style="--i:1;"></span>
+            <p>Copyright &copy; 2023 by Your Name | All Rights Reserved.</p>
         </div>
+        
         <div class="footer-iconTop">
-            <a href="#"><i class="fas fa-arrow-up"></i></a>
-            <span class="animate scroll" style="--i:3;"></span>
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
         </div>
     </footer>
-
+    
     <script src="script.js">
-      
+     
     </script>
 </body>
 </html>

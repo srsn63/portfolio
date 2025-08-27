@@ -1,4 +1,4 @@
-  // Toggle icon navbar
+   // Toggle icon navbar
         let menuIcon = document.querySelector('#menu-icon');
         let navbar = document.querySelector('.navbar');
         
